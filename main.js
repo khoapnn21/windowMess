@@ -11,7 +11,7 @@ function sendMess() {
 window.addEventListener("message", parentDisplay,false );
 
 function parentDisplay(e) {
-    if (e.origin !== "https://khoapnn21.github.io/index.html") return;
+    if (e.origin !== "https://khoapnn21.github.io/subIndex.html") return;
     document.getElementById("displayMsg").innerHTML += e.data  ;
     
 }
